@@ -1,9 +1,9 @@
 package com.bff_agendador_tarefas.client;
 
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TaskStatusUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.response.TarefaResponseDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TaskStatusUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.response.TarefaResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

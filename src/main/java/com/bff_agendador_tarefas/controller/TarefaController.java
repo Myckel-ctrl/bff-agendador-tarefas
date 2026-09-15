@@ -1,10 +1,10 @@
 package com.bff_agendador_tarefas.controller;
 
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TaskStatusUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.response.TarefaResponseDTO;
-import com.bff_agendador_tarefa.service.TarefaService;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TaskStatusUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.response.TarefaResponseDTO;
+import com.bff_agendador_tarefas.service.TarefaService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,6 +1,6 @@
 package com.bff_agendador_tarefas.security;
 
-import com.bff_agendador_tarefa.exception.ApiErrorResponse;
+import com.bff_agendador_tarefas.exception.ApiErrorResponse;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

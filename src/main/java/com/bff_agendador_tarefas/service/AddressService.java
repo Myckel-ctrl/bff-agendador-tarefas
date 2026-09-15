@@ -1,8 +1,8 @@
 package com.bff_agendador_tarefas.service;
 
-import com.bff_agendador_tarefa.client.UserClient;
-import com.bff_agendador_tarefa.dto.address.AddressRequestDTO;
-import com.bff_agendador_tarefa.dto.address.AddressResponseDTO;
+import com.bff_agendador_tarefas.client.UserClient;
+import com.bff_agendador_tarefas.dto.address.AddressRequestDTO;
+import com.bff_agendador_tarefas.dto.address.AddressResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

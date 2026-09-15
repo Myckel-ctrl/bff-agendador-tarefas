@@ -1,14 +1,14 @@
 package com.bff_agendador_tarefas.client;
 
-import com.bff_agendador_tarefa.dto.address.AddressRequestDTO;
-import com.bff_agendador_tarefa.dto.address.AddressResponseDTO;
-import com.bff_agendador_tarefa.dto.auth.AuthRequestDTO;
-import com.bff_agendador_tarefa.dto.auth.AuthResponseDTO;
-import com.bff_agendador_tarefa.dto.phone.PhoneRequestDTO;
-import com.bff_agendador_tarefa.dto.phone.PhoneResponseDTO;
-import com.bff_agendador_tarefa.dto.user.request.UserRequestDTO;
-import com.bff_agendador_tarefa.dto.user.request.UserUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.user.response.UserResponseDTO;
+import com.bff_agendador_tarefas.dto.address.AddressRequestDTO;
+import com.bff_agendador_tarefas.dto.address.AddressResponseDTO;
+import com.bff_agendador_tarefas.dto.auth.AuthRequestDTO;
+import com.bff_agendador_tarefas.dto.auth.AuthResponseDTO;
+import com.bff_agendador_tarefas.dto.phone.PhoneRequestDTO;
+import com.bff_agendador_tarefas.dto.phone.PhoneResponseDTO;
+import com.bff_agendador_tarefas.dto.user.request.UserRequestDTO;
+import com.bff_agendador_tarefas.dto.user.request.UserUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.user.response.UserResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

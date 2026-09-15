@@ -1,6 +1,6 @@
 package com.bff_agendador_tarefas.dto.tarefa.response;
 
-import com.bff_agendador_tarefa.dto.tarefa.TarefaStatus;
+import com.bff_agendador_tarefas.dto.tarefa.TarefaStatus;
 import lombok.*;
 
 import java.time.LocalDateTime;

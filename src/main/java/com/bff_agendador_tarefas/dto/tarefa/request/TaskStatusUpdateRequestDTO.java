@@ -1,6 +1,6 @@
 package com.bff_agendador_tarefas.dto.tarefa.request;
 
-import com.bff_agendador_tarefa.dto.tarefa.TarefaStatus;
+import com.bff_agendador_tarefas.dto.tarefa.TarefaStatus;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

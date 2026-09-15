@@ -1,7 +1,7 @@
 package com.bff_agendador_tarefas.dto.user.response;
 
-import com.bff_agendador_tarefa.dto.address.AddressResponseDTO;
-import com.bff_agendador_tarefa.dto.phone.PhoneResponseDTO;
+import com.bff_agendador_tarefas.dto.address.AddressResponseDTO;
+import com.bff_agendador_tarefas.dto.phone.PhoneResponseDTO;
 import lombok.*;
 
 import java.util.List;

@@ -1,13 +1,14 @@
 package com.bff_agendador_tarefas.controller;
 
-import com.bff_agendador_tarefa.dto.auth.AuthRequestDTO;
-import com.bff_agendador_tarefa.dto.auth.AuthResponseDTO;
-import com.bff_agendador_tarefa.dto.user.request.UserRequestDTO;
-import com.bff_agendador_tarefa.dto.user.response.UserResponseDTO;
-import com.bff_agendador_tarefa.service.AuthService;
+import com.bff_agendador_tarefas.dto.auth.AuthRequestDTO;
+import com.bff_agendador_tarefas.dto.auth.AuthResponseDTO;
+import com.bff_agendador_tarefas.dto.user.request.UserRequestDTO;
+import com.bff_agendador_tarefas.dto.user.response.UserResponseDTO;
+import com.bff_agendador_tarefas.service.AuthService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.junit.jupiter.api.Tag;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

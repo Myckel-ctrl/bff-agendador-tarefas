@@ -1,8 +1,8 @@
 package com.bff_agendador_tarefas.controller;
 
-import com.bff_agendador_tarefa.dto.phone.PhoneRequestDTO;
-import com.bff_agendador_tarefa.dto.phone.PhoneResponseDTO;
-import com.bff_agendador_tarefa.service.PhoneService;
+import com.bff_agendador_tarefas.dto.phone.PhoneRequestDTO;
+import com.bff_agendador_tarefas.dto.phone.PhoneResponseDTO;
+import com.bff_agendador_tarefas.service.PhoneService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

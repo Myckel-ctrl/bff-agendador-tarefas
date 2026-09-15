@@ -1,10 +1,11 @@
 package com.bff_agendador_tarefas.service;
 
-import com.bff_agendador_tarefa.client.TarefaClient;
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TarefaUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.request.TaskStatusUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.tarefa.response.TarefaResponseDTO;
+
+import com.bff_agendador_tarefas.client.TarefaClient;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TarefaUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.request.TaskStatusUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.tarefa.response.TarefaResponseDTO;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

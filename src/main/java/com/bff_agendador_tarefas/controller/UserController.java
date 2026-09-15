@@ -1,8 +1,8 @@
 package com.bff_agendador_tarefas.controller;
 
-import com.bff_agendador_tarefa.dto.user.request.UserUpdateRequestDTO;
-import com.bff_agendador_tarefa.dto.user.response.UserResponseDTO;
-import com.bff_agendador_tarefa.service.UserService;
+import com.bff_agendador_tarefas.dto.user.request.UserUpdateRequestDTO;
+import com.bff_agendador_tarefas.dto.user.response.UserResponseDTO;
+import com.bff_agendador_tarefas.service.UserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

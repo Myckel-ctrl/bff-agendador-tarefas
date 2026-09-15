@@ -1,8 +1,8 @@
 package com.bff_agendador_tarefas.controller;
 
-import com.bff_agendador_tarefa.dto.address.AddressRequestDTO;
-import com.bff_agendador_tarefa.dto.address.AddressResponseDTO;
-import com.bff_agendador_tarefa.service.AddressService;
+import com.bff_agendador_tarefas.dto.address.AddressRequestDTO;
+import com.bff_agendador_tarefas.dto.address.AddressResponseDTO;
+import com.bff_agendador_tarefas.service.AddressService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import io.swagger.v3.oas.annotations.tags.Tag;

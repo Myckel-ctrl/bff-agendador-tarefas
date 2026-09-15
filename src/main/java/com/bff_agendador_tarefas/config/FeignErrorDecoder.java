@@ -1,21 +1,19 @@
 package com.bff_agendador_tarefas.config;
 
-import com.bff_agendador_tarefa.exception.FeignClientException;
-import com.bff_agendador_tarefa.exception.ResourceNotFoundException;
+import com.bff_agendador_tarefas.exception.FeignClientException;
+import com.bff_agendador_tarefas.exception.ResourceNotFoundException;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import feign.Response;
 import feign.codec.ErrorDecoder;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
 import java.io.InputStream;
 
 @Component
-@RequiredArgsConstructor
 public class FeignErrorDecoder implements ErrorDecoder {
 
-    private final ObjectMapper objectMapper;
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     @Override
     public Exception decode(String methodKey, Response response) {
