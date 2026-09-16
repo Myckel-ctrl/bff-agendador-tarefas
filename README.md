@@ -1,4 +1,4 @@
-# BFF Agendador de Tarefas
+# BFF Agendador de Tarefas — Microsserviço
 
 BFF (Backend for Frontend) desenvolvido com **Java e Spring Boot**, responsável por centralizar as requisições do cliente e realizar a comunicação com os microsserviços de **Usuário** e **Agendador de Tarefas**.
 
