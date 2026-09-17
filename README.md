@@ -318,7 +318,6 @@ O projeto também busca aplicar conceitos como:
 * OpenFeign
 * Autenticação com JWT
 * DTOs
-* MapStruct
 * Tratamento global de exceções
 * Validação de dados
 * Documentação de APIs com Swagger/OpenAPI
