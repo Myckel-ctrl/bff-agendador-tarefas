@@ -55,7 +55,6 @@ O BFF **não possui banco de dados próprio**. Ele atua como uma camada de comun
 * JWT
 * Spring Cloud OpenFeign
 * Spring Validation
-* MapStruct
 * Lombok
 * Swagger / OpenAPI
 * Gradle
